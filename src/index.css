@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Add to index.css */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+.MuiButton-root {
+  transition: all 0.3s ease-in-out !important;
+}
+
+.MuiCard-root {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Gradient underline animation */
+@keyframes underline-grow {
+  0% { width: 0; }
+  100% { width: 80px; }
+}
+
+/* Section heading animations */
+.section-heading {
+  transition: transform 0.3s ease;
+}
+
+.section-heading:hover {
+  transform: translateY(-3px);
+}
