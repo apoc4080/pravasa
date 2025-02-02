@@ -44,13 +44,13 @@ export const theme = createTheme({
         backgroundColor: '#2E7D32'
       }
     },
-    sectionHeading: {
-      background: 'linear-gradient(45deg, #2E7D32 30%, #81C784 90%)',
-      color: 'white',
-      padding: '1rem 2rem',
-      borderRadius: '8px',
-      display: 'inline-block',
-      boxShadow: '0 3px 5px 2px rgba(46, 125, 50, .2)'
-    }
+    // sectionHeading: {
+    //   background: 'linear-gradient(45deg, #2E7D32 30%, #81C784 90%)',
+    //   color: 'white',
+    //   padding: '1rem 2rem',
+    //   borderRadius: '8px',
+    //   display: 'inline-block',
+    //   boxShadow: '0 3px 5px 2px rgba(46, 125, 50, .2)'
+    // }
   }
 });

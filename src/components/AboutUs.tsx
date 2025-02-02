@@ -1,5 +1,5 @@
 // components/AboutUs.tsx
-import { Container, Typography, Box, Grid, Divider, useTheme } from '@mui/material';
+import { Container, Typography, Box, Grid, useTheme } from '@mui/material';
 import { Favorite, Public, SelfImprovement } from '@mui/icons-material';
 import SectionHeading from './SectionHeading';
 

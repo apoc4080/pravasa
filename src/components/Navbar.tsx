@@ -1,5 +1,5 @@
 // components/Navbar.tsx
-import { AppBar, Toolbar, Typography, Button, Box, IconButton } from '@mui/material';
+import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
 import { Menu, TravelExplore } from '@mui/icons-material';
 import { scrollToTrips } from '../utility/navigation';
 
