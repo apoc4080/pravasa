@@ -84,9 +84,11 @@ export default function BookingDialog({ open, onClose, destination, dates }: Boo
   };
 
   return (
-    <Dialog open={open} onClose={onClose} sx={{ '& .MuiPaper-root': { borderRadius: 3, p: 2 } }}>
+    <Dialog open={open} onClose={onClose} sx={{ '& .MuiPaper-root': { borderRadius: 3, p: 2, maxWidth: { xs: '100%', sm: '400px', lg: '90vh' } } }}>
       <DialogTitle sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-        <Typography variant="h6" fontWeight={700}>Book Your Trip to {destination}</Typography>
+        <Typography variant="h6" fontWeight={700} sx={{ fontSize: { xs: '1.2rem', sm: '1.5rem' } }}>
+          Book Your Trip to {destination}
+        </Typography>
         <IconButton onClick={onClose} color="error" disabled={loading}>
           <Close />
         </IconButton>
@@ -142,7 +144,7 @@ export default function BookingDialog({ open, onClose, destination, dates }: Boo
             type="submit" 
             variant="contained" 
             size="large" 
-            sx={{ mt: 2, fontWeight: 600 }}
+            sx={{ mt: 2, fontWeight: 600, py: 1.5, fontSize: { xs: '0.875rem', sm: '1rem' } }}
             disabled={loading}
           >
             {loading ? <CircularProgress size={24} color="inherit" /> : 'Confirm Booking'}
