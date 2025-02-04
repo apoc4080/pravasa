@@ -1,4 +1,3 @@
-// components/Footer.tsx
 import { Box, Typography, Link } from '@mui/material';
 import { Favorite } from '@mui/icons-material';
 
@@ -29,7 +28,11 @@ export default function Footer() {
         </Box>
 
         <Typography variant="body2" sx={{ mt: 4 }}>
-          Made with <Favorite fontSize="small" /> in India
+          Made by
+          {' '}
+          <Link href="https://subodh-jajee.netlify.app/" color="inherit" target="_blank" rel="noopener noreferrer">
+            Subodh
+          </Link>
         </Typography>
       </Box>
     </Box>
