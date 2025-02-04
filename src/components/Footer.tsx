@@ -1,5 +1,4 @@
 import { Box, Typography, Link } from '@mui/material';
-import { Favorite } from '@mui/icons-material';
 
 export default function Footer() {
   return (
