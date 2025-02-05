@@ -13,7 +13,7 @@ export default function Footer() {
     >
       <Box textAlign="center">
         <Typography variant="h5" gutterBottom sx={{ fontWeight: 600 }}>
-          Happy Pravasa
+          ಹ್ಯಾಪಿ Pravasa
         </Typography>
         
         <Typography variant="body1" paragraph>
