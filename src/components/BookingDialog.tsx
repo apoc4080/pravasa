@@ -77,11 +77,11 @@ export default function BookingDialog({ open, onClose, destination, dates }: Boo
     );
 
     // Send data to Google Sheets
-    await fetch(import.meta.env.VITE_GOOGLE_APPS_SCRIPT_URL, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(bookingData),
-    });
+    // await fetch(import.meta.env.VITE_GOOGLE_APPS_SCRIPT_URL, {
+    //   method: "POST",
+    //   headers: { "Content-Type": "application/json" },
+    //   body: JSON.stringify(bookingData),
+    // });
       onClose();
       alert('Booking confirmed! You will receive a confirmation email.');
       setFormData({ name: '', email: '', phone: '' });
